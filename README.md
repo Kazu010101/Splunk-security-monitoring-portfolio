@@ -39,7 +39,7 @@ Step 3: Verify if Splunk listens on port 9997 via PowerShell
 
 <img width="940" height="344" alt="image" src="https://github.com/user-attachments/assets/cf3f5987-0d83-4f36-8bcf-246c2cb3be31" />
 
-- Verify Splunk is listening using netstat -an | findstr 9997
+- After logging in to Splunk, open PowerShell and verify Splunk is listening using netstat -an | findstr 9997
 - We should see expected result : TCP    0.0.0.0:9997    LISTENING
 
 <img width="695" height="209" alt="image" src="https://github.com/user-attachments/assets/fe7a48ce-9dc9-401a-a866-e1475db0a3af" />
@@ -56,4 +56,9 @@ Step 4: Verify Windows Server is displayed on Splunk
 
 <img width="940" height="599" alt="image" src="https://github.com/user-attachments/assets/badc1614-eb52-491f-b9d6-38225e0c0678" />
 
+Conclusion
 
+- Splunk Universal Forwarder is communicating with Splunk Enterprise using port 9997 and ready to send Windows Server logs to Splunk.
+- This lab builds an isolated environment to experiment with basic SOC activities. 
+
+Next Lab: Adding Data to Splunk
