@@ -29,4 +29,7 @@ This SPL querry means "look for EventCode = 4625 on win_svr2 index and pipe it t
 
 <img width="555" height="352" alt="image" src="https://github.com/user-attachments/assets/3e72f954-9e95-49c0-9d78-b721451ea0f6" />
 
-- 
+- We can see that the report displays according to the querry which shows the Account_Name that got the failed login, the Source IP address, and the failed login count, which is > 5.
+
+<img width="1905" height="295" alt="image" src="https://github.com/user-attachments/assets/0c859ab3-d7b5-45fd-9b65-9ee081e02996" />
+
