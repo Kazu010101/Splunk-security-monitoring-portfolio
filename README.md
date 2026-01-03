@@ -100,6 +100,7 @@ This is where all data request are querried using a combination of wildcard char
 <img width="1345" height="832" alt="image" src="https://github.com/user-attachments/assets/ffbabfea-7829-46ab-9f5e-a0f2cbf129a5" />
 
 
+The next lab is about creating and managing report in Splunk.
 
 
 
