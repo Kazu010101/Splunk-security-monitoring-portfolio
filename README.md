@@ -10,7 +10,8 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 
 ## Skills Demonstrated
 - Basic Splunk installation and configuration of Universal Forwarder
-- Security monitoring and detection
+- Uploading Data using Universal Forwarder and File Upload
+- Creating and Managing Reports
 - Log analysis using SPL
 - Windows security event analysis
 - Basic incident detection logic
