@@ -48,7 +48,7 @@ Step 3: Verify if Splunk listens on port 9997 via PowerShell
 Step 4: Verify Windows Server is displayed on Splunk
 
 - Go to your Splunk Server
-- Go to Settings > Forwarder management
+- Go to Settings > Agent management
 
 <img width="940" height="444" alt="image" src="https://github.com/user-attachments/assets/983a673a-7f67-4edd-ae35-341abf345c8b" />
 
