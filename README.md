@@ -1,7 +1,9 @@
 # Adding Data to Splunk
 
 Splunk can add data in different ways. This lab demonstrates adding data in 2 ways:
+
 a. Using Universal Forwarder installed on Windows Server host
+
 b. Uploading a log file
 
 **a. Add Data using Universal Forwarder**
@@ -51,4 +53,17 @@ b. Uploading a log file
 - Go to the search field and try searching data using index="win_svr2_index"
 - Verified that Event data from the Windows Server are displayed
 
-<img width="940" height="396" alt="image" src="https://github.com/user-attachments/assets/82c00fa5-d30d-4d22-a2e9-26396cb75f27" />
+<img width="940" height="691" alt="image" src="https://github.com/user-attachments/assets/cf444577-0e53-4fe1-a3cc-6a2fdd4c8453" />
+This is where all data request are querried using a combination of wildcard character ("*") and operators. For example:
+- To search for a username with "Ad" on it, input "Username=Ad*" to make usernames like Admin, Adrian, etc. to be populated.
+- Use operators AND to search for connection on the computer named SVR2 with an event ID using the input "eventid=4624 AND computername=svr2"
+- Search for every connection on the computer except the domain controller: "eventid=4624 NOT computername=domaincontroller"
+- We can also use from "Search History"
+
+
+
+
+**b. Add Data by uploading a log file**
+
+- Go to Settings > Add Data
+- Select "Upload" in the bottom left corner
