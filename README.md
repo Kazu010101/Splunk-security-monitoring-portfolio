@@ -9,6 +9,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 - Data forwarded via TCP port 9997
 
 ## Skills Demonstrated
+- Basic Splunk installation and configuration of Universal Forwarder
 - Security monitoring and detection
 - Log analysis using SPL
 - Windows security event analysis
@@ -21,6 +22,3 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 3. Privilege escalation monitoring
 4. Persistence via service creation
 5. System shutdown and availability monitoring
-**Splunk Lab 1: Splunk Universal Forwarders**
-
-After installing Splunk on Windows Server VM, the universal forwarder in the default configuration is installed. The goal is to send Windows Server logs to Splunk.
