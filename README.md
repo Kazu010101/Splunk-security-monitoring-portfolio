@@ -2,7 +2,7 @@
 
 In Splunk, reports can be created upon successful data extraction or can also be scheduled. 
 
-**Creating Reports from Data Exctraction**
+**Creating Reports from Data Extraction**
 
 For this scenario, 7 consecutive failed login attempts have been purposely made on the Windows Server's Administrator account to trigger EventID 4625 – Failed logon.
 
