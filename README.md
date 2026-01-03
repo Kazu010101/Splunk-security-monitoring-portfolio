@@ -67,7 +67,7 @@ This is where all data request are querried using a combination of wildcard char
 **b. Add Data by uploading a log file**
 
 - Go to Settings > Add Data
-- Select "Upload" in the bottom left corner
+- Select "Upload" 
 
 <img width="1180" height="547" alt="image" src="https://github.com/user-attachments/assets/1f4fa33f-480e-4568-81ca-8d88a6848247" />
 
