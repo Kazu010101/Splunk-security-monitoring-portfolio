@@ -2,7 +2,7 @@
 
 In Splunk, reports can be created upon successful data extraction or can also be scheduled. 
 
-**Creating Reports from Data Extraction**
+## Creating Reports from Data Extraction
 
 For this scenario, 7 consecutive failed login attempts have been purposely made on the Windows Server's Administrator account to trigger EventID 4625 – Failed logon.
 
@@ -35,7 +35,7 @@ This SPL querry means "look for EventCode = 4625 on win_svr2 index and pipe it t
 
 <img width="1905" height="295" alt="image" src="https://github.com/user-attachments/assets/0c859ab3-d7b5-45fd-9b65-9ee081e02996" />
 
-**Edit and Delete Reports**
+## Edit and Delete Reports
 
 - From the Search App, go to the Reports sections
 
@@ -50,7 +50,7 @@ This SPL querry means "look for EventCode = 4625 on win_svr2 index and pipe it t
 
 <img width="1346" height="372" alt="image" src="https://github.com/user-attachments/assets/a7e0fd78-a3f0-4cf4-b788-89e0dfe728ea" />
 
-**Scheduled Report**
+## Scheduled Report 
 
 Now let's schedule the report we created before to occur for every day at 08:00 AM to show the failed login yesterday.
 
