@@ -10,7 +10,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 
 ## Skills Demonstrated
 - Basic Splunk installation and <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Installing-Universal-Forwarder/README.md">Configuration of Universal Forwarder
-- Uploading Data using Universal Forwarder and File Upload
+- <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Adding-Data-to-Splunk/README.md">Uploading Data using Universal Forwarder and File Upload
 - Creating and Managing Reports
 - Log analysis using SPL
 - Windows security event analysis
