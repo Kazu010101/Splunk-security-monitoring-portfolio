@@ -6,7 +6,7 @@ a. Using Universal Forwarder installed on Windows Server host
 
 b. Uploading a log file
 
-**a. Add Data using Universal Forwarder**
+## a. Add Data using Universal Forwarder
 
 - Go to Settings > Add Data
 
@@ -64,7 +64,7 @@ This is where all data request are querried using a combination of wildcard char
 
 
 
-**b. Add Data by uploading a log file**
+## b. Add Data by uploading a log file
 
 - Go to Settings > Add Data
 - Select "Upload" 
@@ -100,7 +100,7 @@ This is where all data request are querried using a combination of wildcard char
 <img width="1345" height="832" alt="image" src="https://github.com/user-attachments/assets/ffbabfea-7829-46ab-9f5e-a0f2cbf129a5" />
 
 
-The next lab is about creating and managing report in Splunk.
+The next lab is <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Creating-and-Managing-Reports/README.md">Creating and Managing Reports
 
 
 
