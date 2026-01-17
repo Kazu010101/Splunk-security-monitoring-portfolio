@@ -2,7 +2,7 @@
 
 Alerts on Splunk are saved searches that can be triggered when certain pre-determined conditions are met. They can be scheduled or in real-time. 
 
-Step 1: Creating the Brute-Force Alert in Splunk
+## Step 1: Creating the Brute-Force Alert in Splunk
 - We will use the querry from the previous brute force attack detection.
 
   index=win_svr2_index EventCode=4625
@@ -17,12 +17,12 @@ Step 1: Creating the Brute-Force Alert in Splunk
 
 <img width="940" height="367" alt="image" src="https://github.com/user-attachments/assets/a6a5c55b-67df-43f3-8e3d-7feb499850ae" />
 
-Step 2: Create the alert
+## Step 2: Create the alert
 - After querring the request as in the report section, save it as an alert.
   
 <img width="1676" height="452" alt="image" src="https://github.com/user-attachments/assets/91460aee-2059-4ddf-8760-9057d40dd22b" />
 
-Step 3: Alert configuration
+## Step 3: Alert configuration
 
 We will need to select the type of alert (scheduled or in real-time), when it must be run (if there are more than 5 login failure for example), and the action.
 
@@ -64,7 +64,7 @@ Rationale for the configuration:
 - Scheduled alerts using cron expressions allow fine-grained control such as running detections every 5 minutes.
 - The alert saves a short, easy-to-read record in Splunk so that the SOC analyst can quickly see when the alert happened and review what occurred.
 
-Step 4: Verify the Alert Configuration
+## Step 4: Verify the Alert Configuration
 
 - Relog and generate > 5 failed logins on Windows Server host
 - Wait up to 5 minutes
