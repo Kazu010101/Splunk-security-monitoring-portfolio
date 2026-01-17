@@ -26,6 +26,7 @@ On the "Save Panel to New Dashboard":
 - Give a description
 - Permission: Private
 - Select Dashboard Type: Classic
+- Fill in the panel title field
 - Click "Save to Dashboard" 
 
 <img width="721" height="933" alt="image" src="https://github.com/user-attachments/assets/a6efd124-c260-44b8-83db-1d8de06f692e" />
