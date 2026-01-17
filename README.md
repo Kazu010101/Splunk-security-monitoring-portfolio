@@ -6,7 +6,7 @@ In Splunk, reports can be created upon successful data extraction or can also be
 
 For this scenario, 7 consecutive failed login attempts have been purposely made on the Windows Server's Administrator account to trigger EventID 4625 – Failed logon.
 
-## Step 1: Data Exctraction
+## Step 1: Data Extraction
 - Use the following SPL to querry the data from the Search Bar
 - index=win_svr2_index EventCode=4625
 | stats count by Account_Name, Source_Network_Address
