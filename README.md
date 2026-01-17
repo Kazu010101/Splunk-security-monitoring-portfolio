@@ -61,4 +61,4 @@ Prerequisites:
 - Splunk Universal Forwarder is communicating with Splunk Enterprise using port 9997 and ready to send Windows Server logs to Splunk.
 - This lab builds an isolated environment to experiment with basic SOC activities. 
 
-Next Lab: Adding Data to Splunk
+Next Lab: <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Adding-Data-to-Splunk/README.md">Uploading Data using Universal Forwarder and File Upload
