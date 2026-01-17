@@ -38,10 +38,15 @@ Step 2: Generate Report
 **Edit and Delete Reports**
 
 - From the Search App, go to the Reports sections
+
+<img width="725" height="302" alt="image" src="https://github.com/user-attachments/assets/05b5980a-c4cf-4d85-a2a0-dc852ed83e88" />
+
 - Here you can find all existing reports.
-
 - Select the report created a few minutes ago.
-- 
-- From here you can see information about your report.
 
-- Select the Edit button
+<img width="1898" height="582" alt="image" src="https://github.com/user-attachments/assets/a11f14aa-6dde-4127-9c38-db841b01ffa5" />
+
+- From here you can see information about your report and Edit the information
+
+<img width="1346" height="372" alt="image" src="https://github.com/user-attachments/assets/a7e0fd78-a3f0-4cf4-b788-89e0dfe728ea" />
+
