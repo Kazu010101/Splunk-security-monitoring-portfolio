@@ -50,3 +50,25 @@ Step 2: Generate Report
 
 <img width="1346" height="372" alt="image" src="https://github.com/user-attachments/assets/a7e0fd78-a3f0-4cf4-b788-89e0dfe728ea" />
 
+**Scheduled Report**
+
+Now let's schedule the report we created before to occur for every day at 08:00 AM to show the failed login yesterday.
+
+- Select "Edit Schedule" 
+
+<img width="1348" height="358" alt="image" src="https://github.com/user-attachments/assets/986831b9-a536-4a38-abbf-db85d7fd6321" />
+
+- Check "Schedule Report for (name of your report)"
+  
+<img width="673" height="338" alt="image" src="https://github.com/user-attachments/assets/80394df7-a2cd-4411-9179-7ebe6ffb751e" />
+
+- Configure the report settings accordingly and click "Save"
+  
+<img width="667" height="577" alt="image" src="https://github.com/user-attachments/assets/2d4c1b9d-4a38-47ed-80ef-95c7ee0c16e2" />
+
+- Review the information in the report
+
+<img width="1507" height="367" alt="image" src="https://github.com/user-attachments/assets/64598390-bc34-4ca8-976e-feced18cffd9" />
+
+
+The next lab is to configure alert on Splunk
