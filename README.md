@@ -34,7 +34,7 @@ Step 3: Verify if Splunk listens on port 9997 via PowerShell
 - Open PowerShell and input `cd "C:\Program Files\Splunk\bin"`
 - Run `.\splunk enable listen 9997`
 - Enter Splunk username and password
-- The prompt should display Listening for Splunk data on TCP port 9997.
+- The prompt should display `Listening for Splunk data on TCP port 9997`.
 - Restart Splunk using command `.\splunk restart` (Splunk will disconnect. Relogin after the restart)
 
 <img width="940" height="344" alt="image" src="https://github.com/user-attachments/assets/cf3f5987-0d83-4f36-8bcf-246c2cb3be31" />
