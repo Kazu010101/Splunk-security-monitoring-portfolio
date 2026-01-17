@@ -11,8 +11,6 @@ Alerts on Splunk are saved searches that can be triggered when certain pre-deter
   | where failed_attempts >= 5
   ```
 
-<img width="418" height="106" alt="image" src="https://github.com/user-attachments/assets/84910dee-87b1-4801-ae50-c3eb91a44f68" />
-
 - Run the querry and confirm the result
 
 <img width="940" height="367" alt="image" src="https://github.com/user-attachments/assets/a6a5c55b-67df-43f3-8e3d-7feb499850ae" />
