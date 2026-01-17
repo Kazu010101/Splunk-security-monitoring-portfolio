@@ -32,10 +32,10 @@ For this lab example, the alert configuration is as follows:
 - Time Range: Last for 15 minutes
 - Cron Expression : */5 * * * * (This means: */5 → every 5 minutes, * * * * → every hour, every day)
 - Expires: 1 hour
-- Trigger Condition: Number of result (i.e. failed login is bigger than 5)
+- Trigger Condition: 0
 - Trigger : Once
 
-<img width="798" height="725" alt="image" src="https://github.com/user-attachments/assets/f8beb2a0-b933-44b8-a4c5-8722b7c890ec" />
+<img width="813" height="677" alt="image" src="https://github.com/user-attachments/assets/536727e5-5777-4730-b3b6-8ef1207adedc" />
 
 - Triggered Actions: "Add to Triggered Alerts" and "Log Event".
 
