@@ -13,7 +13,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 - <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Adding-Data-to-Splunk/README.md">Uploading Data using Universal Forwarder and File Upload
 - <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Creating-and-Managing-Reports/README.md">Creating and Managing Reports
 - <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">Configuring Brute-Force Alert on Splunk
-- <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Creating-Splunk-Dashboards/README.md
+- <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">Creating-Splunk-Dashboards
 - Log analysis using SPL
 - Windows security event analysis
 - Basic incident detection logic
