@@ -30,7 +30,7 @@ For this lab example, the alert configuration is as follows:
 - Permissions: Private
 - Alert Type: Scheduled, Run on Cron Schedule
 - Time Range: Last for 15 minutes
-- Cron Expression : `*/5 * * * *` (This means: */5 → every 5 minutes, * * * * → every hour, every day)
+- Cron Expression : `*/5 * * * *` (This means: `*/5` → every 5 minutes, `* * * *` → every hour, every day)
 - Expires: 1 hour
 - Trigger Condition: > 0 (The alert is set to trigger when results are greater than zero because the SPL search already filters for five or more failed logins, so any result returned automatically means a brute-force attempt has been detected.)
 - Trigger : Once
