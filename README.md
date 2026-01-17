@@ -24,7 +24,7 @@ Alerts on Splunk are saved searches that can be triggered when certain pre-deter
 
 ## Step 3: Alert configuration
 
-We will need to select the type of alert (scheduled or in real-time), when it must be run (if there are more than 5 login failure for example), and the action.
+We will need to select the type of alert (scheduled or in real-time), when it must be run (if the brute force is detected for example), and the action.
 
 For this lab example, the alert configuration is as follows:
 - Permissions: Private
