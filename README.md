@@ -5,7 +5,7 @@ After installation of Splunk Enterprise, the universal forwarder in the default 
 Prerequisites: 
 - splunkforwarder setup file downloaded 
 
-Step 1: Universal Forwarder Setup
+## Step 1: Universal Forwarder Setup
 - Accept the Licence Agreement
 - Select "an on-premises Splunk Enterprise instance" to install Splunk on an on-premise Windows Server VM.
 
@@ -22,14 +22,14 @@ Step 1: Universal Forwarder Setup
 
 - Click Next and Launch the installation
 
-Step 2: Check Universal Forwarder Installation on Windows
+## Step 2: Check Universal Forwarder Installation on Windows
 
 - Go to services.msc
 - Verify if "SplunkForwarder Service" is up.
 
 <img width="940" height="439" alt="image" src="https://github.com/user-attachments/assets/b5f05201-8ac6-4cb4-beb1-1ce80eaa6bdd" />
 
-Step 3: Verify if Splunk listens on port 9997 via PowerShell
+## Step 3: Verify if Splunk listens on port 9997 via PowerShell
 
 - Open PowerShell and input `cd "C:\Program Files\Splunk\bin"`
 - Run `.\splunk enable listen 9997`
@@ -45,7 +45,7 @@ Step 3: Verify if Splunk listens on port 9997 via PowerShell
 <img width="695" height="209" alt="image" src="https://github.com/user-attachments/assets/fe7a48ce-9dc9-401a-a866-e1475db0a3af" />
 
 
-Step 4: Verify Windows Server is displayed on Splunk
+## Step 4: Verify Windows Server is displayed on Splunk
 
 - Go to your Splunk Server
 - Go to Settings > Agent management
@@ -56,7 +56,7 @@ Step 4: Verify Windows Server is displayed on Splunk
 
 <img width="940" height="599" alt="image" src="https://github.com/user-attachments/assets/badc1614-eb52-491f-b9d6-38225e0c0678" />
 
-Conclusion
+## Conclusion
 
 - Splunk Universal Forwarder is communicating with Splunk Enterprise using port 9997 and ready to send Windows Server logs to Splunk.
 - This lab builds an isolated environment to experiment with basic SOC activities. 
