@@ -5,11 +5,11 @@ Alerts on Splunk are saved searches that can be triggered when certain pre-deter
 ## Step 1: Creating the Brute-Force Alert in Splunk
 - We will use the querry from the previous brute force attack detection.
 
-  index=win_svr2_index EventCode=4625
+  ```index=win_svr2_index EventCode=4625```
   
-  | stats count as failed_attempts by Account_Name, Source_Network_Address
+  ```| stats count as failed_attempts by Account_Name, Source_Network_Address```
   
-  | where failed_attempts >= 5
+  ```| where failed_attempts >= 5```
 
 <img width="418" height="106" alt="image" src="https://github.com/user-attachments/assets/84910dee-87b1-4801-ae50-c3eb91a44f68" />
 
@@ -30,7 +30,7 @@ For this lab example, the alert configuration is as follows:
 - Permissions: Private
 - Alert Type: Scheduled, Run on Cron Schedule
 - Time Range: Last for 15 minutes
-- Cron Expression : */5 * * * * (This means: */5 → every 5 minutes, * * * * → every hour, every day)
+- Cron Expression : `*/5 * * * *` (This means: */5 → every 5 minutes, * * * * → every hour, every day)
 - Expires: 1 hour
 - Trigger Condition: > 0 (The alert is set to trigger when results are greater than zero because the SPL search already filters for five or more failed logins, so any result returned automatically means a brute-force attempt has been detected.)
 - Trigger : Once
