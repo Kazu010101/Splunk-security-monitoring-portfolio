@@ -3,7 +3,7 @@
 Alerts on Splunk are saved searches that can be triggered when certain pre-determined conditions are met. They can be scheduled or in real-time. 
 
 ## Step 1: Creating the Brute-Force Alert in Splunk
-- We will use the querry from the previous brute force attack detection.
+- We will use the following SPL for brute force attack detection.
 
   ```
   index=win_svr2_index EventCode=4625
