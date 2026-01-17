@@ -31,16 +31,16 @@ Step 2: Check Universal Forwarder Installation on Windows
 
 Step 3: Verify if Splunk listens on port 9997 via PowerShell
 
-- Open PowerShell and input cd "C:\Program Files\Splunk\bin"
-- Run .\splunk enable listen 9997
+- Open PowerShell and input `cd "C:\Program Files\Splunk\bin"`
+- Run `.\splunk enable listen 9997`
 - Enter Splunk username and password
 - The prompt should display Listening for Splunk data on TCP port 9997.
-- Restart Splunk using command .\splunk restart (Splunk will disconnect. Relogin after the restart)
+- Restart Splunk using command `.\splunk restart` (Splunk will disconnect. Relogin after the restart)
 
 <img width="940" height="344" alt="image" src="https://github.com/user-attachments/assets/cf3f5987-0d83-4f36-8bcf-246c2cb3be31" />
 
-- After logging in to Splunk, open PowerShell and verify Splunk is listening using netstat -an | findstr 9997
-- We should see expected result : TCP    0.0.0.0:9997    LISTENING
+- After logging in to Splunk, open PowerShell and verify Splunk is listening using `netstat -an | findstr 9997`
+- We should see expected result : `TCP    0.0.0.0:9997    LISTENING`
 
 <img width="695" height="209" alt="image" src="https://github.com/user-attachments/assets/fe7a48ce-9dc9-401a-a866-e1475db0a3af" />
 
