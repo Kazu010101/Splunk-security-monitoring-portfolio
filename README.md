@@ -6,7 +6,7 @@ In Splunk, reports can be created upon successful data extraction or can also be
 
 For this scenario, 7 consecutive failed login attempts have been purposely made on the Windows Server's Administrator account to trigger EventID 4625 – Failed logon.
 
-Step 1: Data Exctraction
+## Step 1: Data Exctraction
 - Use the following SPL to querry the data from the Search Bar
 - index=win_svr2_index EventCode=4625
 | stats count by Account_Name, Source_Network_Address
@@ -17,7 +17,7 @@ This SPL querry means "look for EventCode = 4625 on win_svr2 index and pipe it t
 <img width="1079" height="751" alt="image" src="https://github.com/user-attachments/assets/89b2179e-30cb-492f-bf5b-8a01d9bf080d" />
 
 
-Step 2: Generate Report
+## Step 2: Generate Report
 
 - Go to the Save As menu and select "Report"
 
@@ -71,4 +71,4 @@ Now let's schedule the report we created before to occur for every day at 08:00 
 <img width="1507" height="367" alt="image" src="https://github.com/user-attachments/assets/64598390-bc34-4ca8-976e-feced18cffd9" />
 
 
-The next lab is to configure alert on Splunk
+The next lab is <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">Configuring Alert on Splunk
