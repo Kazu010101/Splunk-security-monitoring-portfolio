@@ -54,8 +54,30 @@ For this lab example, the alert configuration is as follows:
 
 <img width="800" height="312" alt="image" src="https://github.com/user-attachments/assets/6001386e-efd2-4047-8221-a49fdd1c7ad2" />
 
+- Confirmed that the Alert is listed and enabled
+
+<img width="1897" height="366" alt="image" src="https://github.com/user-attachments/assets/0a896db8-e503-4511-86e6-8ec6882a077c" />
+
 
 Rationale for the configuration:
 - The alert runs every 5 minutes and looks back over the last 15 minutes to detect bursts of failed logins, ensuring timely detection without excessive alerting.
 - Scheduled alerts using cron expressions allow fine-grained control such as running detections every 5 minutes.
 - The alert logs a clear, single-line event into the main index using a generic sourcetype, making it easier to review and investigate the alert activity.
+
+Step 4: Verify the Alert Configuration
+
+- Relog and generate > 5 failed logins on Windows Server host
+- Wait up to 5 minutes
+- Go to Activity → Triggered Alerts
+
+<img width="831" height="246" alt="image" src="https://github.com/user-attachments/assets/bfa40ae2-cf68-43c1-ada0-e896816068cb" />
+
+- The triggered alert is listed
+
+<img width="1548" height="277" alt="image" src="https://github.com/user-attachments/assets/9e6af52e-3de7-41f5-9ca1-f2e8680ecd26" />
+
+- Click "View Results" to see the details (Account Name, Source IP, number of counts)
+
+<img width="1911" height="541" alt="image" src="https://github.com/user-attachments/assets/dda64c8f-cc0d-48ed-8e8e-d86b2f1fe04a" />
+ 
+
