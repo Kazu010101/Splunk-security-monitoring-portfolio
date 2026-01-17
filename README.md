@@ -8,17 +8,28 @@ The goals of visualizing using dashboards is to allow an analyst to see:
 
 ## Step 1: Create the dashboard
 
+```
+index=win_svr2_index EventCode=4625
+| stats count as failed_attempts by Account_Name, Source_Network_Address
+| where failed_attempts >= 5
+| sort - failed_attempts
+```
+
 - Run the SPL above in Search
-- Click Save As → Dashboard Panel
+- Click Save As → New Dashboard
   
 <img width="940" height="184" alt="image" src="https://github.com/user-attachments/assets/4ee6be62-3a13-45eb-8ae1-3c0ec1b2894e" />
 
-On the New Dasboard Panel, choose:
-- New Dashboard
-- Give the dasboard a name: Windows Authentication Monitoring
-- Permission: Private
+On the "Save Panel to New Dashboard":
 
-<img width="721" height="933" alt="image" src="https://github.com/user-attachments/assets/25b6053a-58c3-4782-8731-278880a3a992" />
+- Give the dasboard a title: Windows Authentication Monitoring
+- Give a description
+- Permission: Private
+- Select Dashboard Type: Classic
+- Click "Save to Dashboard" 
+
+<img width="721" height="933" alt="image" src="https://github.com/user-attachments/assets/a6efd124-c260-44b8-83db-1d8de06f692e" />
+
 
 ## Step 2: Create Panel 1 – Bar Chart (Most Failed Logins)
 
