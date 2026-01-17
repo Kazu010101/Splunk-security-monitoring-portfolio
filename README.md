@@ -8,9 +8,11 @@ For this scenario, 7 consecutive failed login attempts have been purposely made 
 
 ## Step 1: Data Extraction
 - Use the following SPL to querry the data from the Search Bar
-- index=win_svr2_index EventCode=4625
+```
+index=win_svr2_index EventCode=4625
 | stats count by Account_Name, Source_Network_Address
 | where count > 5
+```
 
 This SPL querry means "look for EventCode = 4625 on win_svr2 index and pipe it to display the account name and source IP address that made that failed login for more than 5 times".
 
