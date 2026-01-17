@@ -62,7 +62,7 @@ For this lab example, the alert configuration is as follows:
 Rationale for the configuration:
 - The alert runs every 5 minutes and looks back over the last 15 minutes to detect bursts of failed logins, ensuring timely detection without excessive alerting.
 - Scheduled alerts using cron expressions allow fine-grained control such as running detections every 5 minutes.
-- The alert logs a clear, single-line event into the main index using a generic sourcetype, making it easier to review and investigate the alert activity.
+- The alert saves a short, easy-to-read record in Splunk so that the SOC analyst can quickly see when the alert happened and review what occurred.
 
 Step 4: Verify the Alert Configuration
 
@@ -80,4 +80,25 @@ Step 4: Verify the Alert Configuration
 
 <img width="1911" height="541" alt="image" src="https://github.com/user-attachments/assets/dda64c8f-cc0d-48ed-8e8e-d86b2f1fe04a" />
  
+## Lab Outcome and Conclusion
+
+This lab demonstrates the process of generating alert to detecting a brute-force login attack using Splunk.
+Failed login attempts were intentionally generated on a Windows Server virtual machine, ingested into Splunk, analysed using SPL, and detected using a scheduled alert.
+
+The alert was successfully triggered and recorded in Splunk, confirming that the detection logic, scheduling, and alert actions were correctly configured, demonstrating a practical SOC-style workflow from log collection to incident detection.
+
+## MITRE ATT&CK Mapping
+| Category        | Mapping |
+|-----------------|---------|
+| Tactic          | Credential Access |
+| Technique       | T1110 – Brute Force |
+| Platform        | Windows |
+| Data Source     | Windows Security Event Logs |
+| Detection Focus | Multiple failed authentication attempts |
+
+## NIST Cybersecurity Framework Mapping
+| Function | Category | Description |
+|---------|----------|-------------|
+| Detect  | DE.CM    | Continuous monitoring of authentication activity |
+| Respond | RS.AN    | Analysis of suspicious login behaviour |
 
