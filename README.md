@@ -9,7 +9,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 - Data forwarded via TCP port 9997
 
 ## Skills Demonstrated
-- Basic Splunk installation and configuration of Universal Forwarder
+- Basic Splunk installation and configuration of Universal Forwarder <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio.git">Splunk-Project|
 - Uploading Data using Universal Forwarder and File Upload
 - Creating and Managing Reports
 - Log analysis using SPL
