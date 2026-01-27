@@ -20,7 +20,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 - SOC Level 1 workflows
 
 ## Detection Scenarios
-1. Failed login / brute-force detection
+1. <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">Brute Force / Failed login detection
 2. Successful login after multiple failures
 3. Privilege escalation monitoring
 4. Persistence via service creation
