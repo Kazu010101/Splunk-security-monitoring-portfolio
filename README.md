@@ -73,7 +73,22 @@ Confirmed that the Alert is listed and enabled
 ## Lab Outcome and Conclusion
 This lab demonstrated the detection of suspicious login behaviour where a successful authentication occurs after multiple failed login attempts.
 By correlating Windows Security Event IDs 4625 (failed login) and 4624 (successful login), the alert accurately identified potential brute-force or credential-guessing activity that resulted in account compromise.
-The scenario also validates the importance of correlating multiple security events rather than relying on single-event detection.
-This approach improves detection accuracy by identifying attack patterns that indicate a higher risk to account security.
+In additon to validating the importance of correlating multiple security events rather than relying on single-event detection, this approach improves detection accuracy by identifying attack patterns that indicate a higher risk to account security.
 
 By enabling early identification of compromised credentials, and supporting timely investigation and response, the succesful detection aligns with MITRE ATT&CK and the NIST Cybersecurity Framework.
+
+## MITRE ATT&CK Mapping
+| Category        | Mapping |
+|-----------------|---------|
+| Tactic          | Credential Access |
+| Technique       | T1110 – Brute Force |
+| Platform        | Windows |
+| Data Source     | Windows Security Event Logs |
+| Detection Focus | Successful authentication after repeated failures |
+
+## NIST Cybersecurity Framework Mapping
+| Function | Category | Description |
+|---------|----------|-------------|
+| Detect  | DE.CM    | Monitoring authentication activity to identify suspicious login patterns |
+| Respond | RS.AN    | Analysing alerts related to potential credential compromise |
+
