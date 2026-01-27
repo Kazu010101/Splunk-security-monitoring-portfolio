@@ -21,7 +21,8 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 
 ## Detection Scenarios
 1. <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Configuring-Alert-on-Splunk">Brute Force / Failed login detection
-2. Successful login after multiple failures
+2. <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/tree/Detection-Scenario-2-Successful-Login-After-Multiple-Failures">Successful Login After Multiple Failures
 3. Privilege escalation monitoring
 4. Persistence via service creation
 5. System shutdown and availability monitoring
+
