@@ -8,7 +8,7 @@ This repository demonstrates hands-on experience using **Splunk Enterprise** and
 - Internal VM network (offline lab)
 - Data forwarded via TCP port 9997
 
-## Skills Demonstrated
+## Objectives
 - Basic Splunk installation and <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Installing-Universal-Forwarder/README.md">Configuration of Universal Forwarder
 - <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Adding-Data-to-Splunk/README.md">Uploading Data using Universal Forwarder and File Upload
 - <a href="https://github.com/Kazu010101/Splunk-security-monitoring-portfolio/blob/Creating-and-Managing-Reports/README.md">Creating and Managing Reports
